@@ -1,0 +1,15 @@
+Package: articletpl
+Title: Reproducible Research Article Template
+Version: 0.1.0
+Authors@R: 
+    person("Shehu", "Mohammed", , "stmuhammad.eco@buk.edu.ng", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package enables researchers to write their research articles
+              using the literate programming framework.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
