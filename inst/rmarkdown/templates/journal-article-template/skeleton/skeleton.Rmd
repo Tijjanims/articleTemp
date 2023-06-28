@@ -1,0 +1,49 @@
+---
+title: "journal Article Template"
+author: "Shehu M. Tijjani"
+date: "June 28, 2023"
+output:
+  word_document:
+    number_sections: yes
+  prettydoc::html_pretty:
+    theme: cayman
+    number_sections: yes
+  pdf_document:
+    number_sections: yes
+  rmarkdown::html_document:
+    theme: cayman
+  html_notebook:
+    number_sections: yes
+    theme: journal
+  header-includes:
+    -\setlength{\parindent}{2em}
+    -\setlength{\parskip}{2em}
+  date: June 28, 2023
+  always_allow_html: yes
+  bibliography: bibliography.bib
+  abstract: "Abstract text here"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+# Literature Review
+
+# Methodology
+
+## Data
+
+## Model Specification
+
+## Analysis
+
+# Results and Discussion
+
+# Conclusion
+
+# Appendix
+
+# References

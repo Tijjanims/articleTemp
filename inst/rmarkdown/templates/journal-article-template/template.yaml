@@ -1,0 +1,4 @@
+name: Journal Article Template
+description: >
+   A template for writing reproducible research article
+create_dir: FALSE
