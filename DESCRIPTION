@@ -15,4 +15,8 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     FAOSTAT,
+    prettydoc,
     WDI
+Depends: 
+    R (>= 2.10)
+LazyData: true
